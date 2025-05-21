@@ -4,7 +4,7 @@ import (
 	"html/template"
 	"net/http"
 
-	"github.com/sakshitwillion/Golangrepo/my-app/model"
+	"github.com/sakshitwillion/Golangrepo/model"
 )
 
 func ViewUser(w http.ResponseWriter, user model.User) {

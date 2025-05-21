@@ -1,10 +1,11 @@
 package controller
 
 import (
-	"myapp/demo/mvc_golang/my-app/model"
-	"myapp/demo/mvc_golang/my-app/view"
 	"net/http"
 	"strconv"
+
+	"github.com/sakshitwillion/Golangrepo/model"
+	"github.com/sakshitwillion/Golangrepo/view"
 )
 
 func HandleUser(w http.ResponseWriter, r *http.Request) {

@@ -3,7 +3,7 @@ package main
 import (
 	"net/http"
 
-	"github.com/sakshitwillion/Golangrepo/my-app/controller"
+	"github.com/sakshitwillion/Golangrepo/controller"
 )
 
 func main() {
