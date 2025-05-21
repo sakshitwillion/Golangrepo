@@ -1,8 +1,9 @@
 package main
 
 import (
-	"myapp/demo/mvc_golang/my-app/controller"
 	"net/http"
+
+	"github.com/sakshitwillion/Golangrepo/my-app/controller"
 )
 
 func main() {

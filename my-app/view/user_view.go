@@ -2,8 +2,9 @@ package view
 
 import (
 	"html/template"
-	"myapp/demo/mvc_golang/my-app/model"
 	"net/http"
+
+	"github.com/sakshitwillion/Golangrepo/my-app/model"
 )
 
 func ViewUser(w http.ResponseWriter, user model.User) {
